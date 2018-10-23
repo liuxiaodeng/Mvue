@@ -8,9 +8,9 @@
 	 crossorigin="anonymous">
 	<style>
 		#app {
-			margin: 100px auto;
+			margin: 20px auto;
 			width: 800px;
-			padding: 100px 0;
+			padding: 200px;
 			text-align: center;
 			border: 2px solid #ccc;
 		}
@@ -18,20 +18,15 @@
 </head>
 
 <body>
-	<div class="panel panel-primary">
-		<div class="panel-heading"></div>
-		<div class="panel-body">
-			Panel content
-		</div>
-	</div>
 	<div id="app">
-		<input v-model="name" type="text">
+		<input class="form-control" v-model="name" type="text">
 		<h1>{{name}}</h1>
 	</div>
-	<script src="./observer.js"></script>
-	<script src="./watcher.js"></script>
-	<script src="./compile.js"></script>
-	<script src="./index.js"></script>
+
+	<script src="./js/observer.js"></script>
+	<script src="./js/watcher.js"></script>
+	<script src="./js/compile.js"></script>
+	<script src="./js/index.js"></script>
 	<script>
 		const vm = new Mvue({
 			el: "#app",
