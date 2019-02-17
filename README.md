@@ -382,7 +382,7 @@ Mvue.prototype.proxyData = function (key) {
 3. [源码地址](https://github.com/Modenng/Mvue)，整个过程的全部代码，希望对你有所帮助。
 4. 如果你觉得本文对你有帮助，欢迎转发，点赞。
 
-**关注微信公众号：Modeng，回复「1024」可领取大礼包。** 
+**关注微信公众号：六小登登，回复「1024」可领取大礼包。** 
 
 
 
